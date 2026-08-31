@@ -3,14 +3,17 @@
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
-
+#saldfdjlafjdssfjdafkds
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
+def sum(*args):
+    return sum(args)
 if __name__ == '__main__':
     print_hi('PyCharm')
+    print(sum(1, 2, 3, 4, 5))
+
+# Press the green button in the gutter to run the script.
+
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
